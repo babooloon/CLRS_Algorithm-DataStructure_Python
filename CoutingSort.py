@@ -27,4 +27,3 @@ def countingSort(nums):
         res[aux[nums[i]]] = nums[i]
         aux[nums[i]] -= 1
     return res[1:]
-print countingSort([2, 5, 3, 0, 2, 3, 0, 3])
