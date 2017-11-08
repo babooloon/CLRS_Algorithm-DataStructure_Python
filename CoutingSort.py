@@ -6,6 +6,8 @@ Created on Wed Nov  8 12:10:34 2017
 @author: paulyang
 """
 
+# Time Complexity: O(n + k)
+# Auxiliary Space: O(k)
 def countingSort(nums):
     # Ensure that nums are non negative
     assert min(nums) >= 0, 'Numbers in nums must be nonnegative.'
